@@ -1,0 +1,1 @@
+$sql = "SELECT * FROM `tbl_order` INNER JOIN tbl_order_detail on tbl_order.id = tbl_order_detail.order_id INNER JOIN costumer ON tbl_order.costumer_id = costumer.id INNER JOIN product ON tbl_order_detail.product_id = product.id INNER JOIN category ON product.category_id = category.id";
